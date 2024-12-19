@@ -32,10 +32,9 @@ spec:
         helm:
           valueFiles:
             - values.yaml
-        # TODO: Replace by your username and push the changes to your fork
-        repoURL: git@github.com:fernandobalieiro/k8s-training.git
-        targetRevision: '{{.targetRevision}}'
-        path: '{{.path}}'
+        repoURL: git@github.com:lariguerreiro/k8s-training.git
+        targetRevision: '{{targetRevision}}'
+        path: '{{path}}'
       syncPolicy:
         automated:
           prune: true

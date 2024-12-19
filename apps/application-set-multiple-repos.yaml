@@ -9,18 +9,17 @@ spec:
   generators:
     - list:
         elements:
-          # TODO: Replace by your username and push the changes to your fork
           - name: simple-app
             path: charts/simple-app
-            repoURL: git@github.com:fernandobalieiro/k8s-training.git
+            repoURL: git@github.com:lariguerreiro/k8s-training.git
             type: api
           - name: app-with-db
             path: charts/app-with-db
-            repoURL: git@github.com:fernandobalieiro/k8s-training.git
+            repoURL: git@github.com:lariguerreiro/k8s-training.git
             type: api
           - name: postgres
             path: charts/postgres
-            repoURL: git@github.com:fernandobalieiro/k8s-training.git
+            repoURL: git@github.com:lariguerreiro/k8s-training.git
             type: services
   template:
     metadata:
